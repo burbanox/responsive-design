@@ -17,6 +17,8 @@ Organizacion del archivo :
     --soft-blue : #E7F5FF;
     --warm-black : #201E1C;
     --warm-black-two : #282623;
+    --hard-grey : #757575;
+    --off-grey : #808080;
     --grey : #BABABA;
     --off-white : #FAF8F7;
     --just-white : #FFFFFF;
@@ -113,4 +115,57 @@ header>img
     height: 8px;
     margin-left: 10px;
     background-image: url('../assets/icons/down-arrow.svg');
+}
+
+main
+{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    max-width: 900px;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container 
+{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container .backgroung_img 
+{
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('../assets/img/Bitcoin.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container 
+{
+    min-width: 288px;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-container h2 
+{
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.text-container p 
+{
+    color: var(--hard-grey);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
 }
