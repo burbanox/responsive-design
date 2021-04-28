@@ -23,6 +23,7 @@ Organizacion del archivo :
     --off-white : #FAF8F7;
     --just-white : #FFFFFF;
     --prymary-font : 'DM Sans', 'sans-serif'; 
+    --secondary-font : 'Inter';
 }
 
 *
@@ -169,3 +170,132 @@ main
     font-weight: 500;
     line-height: 18px;
 }
+
+.main-table-container 
+{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.table-content
+{
+    width: min-content;
+}
+
+.table-content p
+{
+    width: min-content;
+    color:#FF9536;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.main-table 
+{
+    font-family: var(--secondary-font);
+}
+
+.main-table td 
+{
+    width: 50%;
+    height: 25%;
+    background-color: var(--just-white);
+    padding-left: 15px;
+}
+
+.first-rigth-block
+{
+    border-radius: 8px 0 0 0;
+}
+
+.first-left-block
+{
+    border-radius: 0 8px 0 0;
+}
+
+.last-rigth-block
+{
+    border-radius: 0 0 0 8px;
+}
+
+.last-left-block
+{
+    border-radius: 0 0 8px 0;
+}
+
+.rigth-block,.first-rigth-block,.last-rigth-block
+{
+    color: #B5B0AC;
+    font-size: 1.6rem;
+    line-height: 19px;
+}
+
+.left-block,.first-left-block,.last-left-block
+{
+    color: var(--hard-grey);
+    font-size: 1.4rem;
+    line-height: 17px;
+}
+
+.main-table td span
+{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+
+.main-table tr:first-child span,
+.main-table tr:nth-child(3) span 
+{
+    background-image: url("../assets/icons/trending-up.svg");
+}
+
+.main-table tr:last-child span,
+.main-table tr:nth-child(2) span 
+{
+    background-image: url("../assets/icons/trending-down.svg");
+}
+
+.table-content .date-containt 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 173px;
+    height: 31px;
+    background-color:#FFE9D4;
+    font-family: var(--secondary-font);
+}
+
+
+
+.date-containt .date-text 
+{
+    padding: 0;
+    margin: 0;
+    width: max-content;
+    font-size: 1.2rem;
+    line-height: 15px;
+    font-weight: bold;
+    color: var(--warm-black);
+}
+
+.date-containt .date-text span 
+{
+    font-weight: 400;
+}
+
+
+
