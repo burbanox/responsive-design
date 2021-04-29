@@ -124,6 +124,7 @@ main
     height: auto;
     min-width: 320px;
     max-width: 900px;
+    margin: 0 auto;
     background-color: var(--off-white);
 }
 
@@ -132,6 +133,7 @@ main
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .main-exchange-container .backgroung_img 
@@ -185,6 +187,7 @@ main
 .table-content
 {
     width: min-content;
+    margin: 0 auto;
 }
 
 .table-content p
@@ -200,7 +203,16 @@ main
 
 .main-table 
 {
+    width: 100%;
     font-family: var(--secondary-font);
+}
+
+.main-table table
+{
+    width: 100%;
+    min-width: 208px;
+    max-width: 500px;
+    height: 160px;
 }
 
 .main-table td 
