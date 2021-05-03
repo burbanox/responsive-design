@@ -342,6 +342,7 @@ main
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     margin-bottom: 20px;
     padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -352,8 +353,28 @@ main
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url('../assets/icons/clock.svg');
 }
+
+.info-text-container:nth-child(2) > .icon > span
+{
+    background : url('../assets/icons/clock.svg');
+}
+
+.info-text-container:nth-of-type(3) > .icon > span
+{
+    background : url('../assets/icons/eye.svg');
+}
+
+.info-text-container:nth-of-type(4) > .icon > span
+{
+    background : url('../assets/icons/dollar-sign.svg');   
+}
+
+.info-text-container:last-of-type > .icon > span
+{
+    background : url('../assets/icons/check-circle.svg');   
+}
+
 
 .info-text-container > h3
 {
