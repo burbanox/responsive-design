@@ -186,7 +186,7 @@ main
 
 .table-content
 {
-    width: min-content;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -309,5 +309,87 @@ main
     font-weight: 400;
 }
 
+.info-content
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: var(--warm-black);
+    font-family: var(--prymary-font);
+} 
+
+.info-container 
+{
+    width: 88%;
+    min-width: 281.6px;
+    max-width: 792;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.info-container>div
+{
+    width: 100%;
+    max-width: 500px;
+}
+
+.info-text-container 
+{
+    height: 152px;
+    background-color:#282623;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info-text-container > .icon > span
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../assets/icons/clock.svg');
+}
+
+.info-text-container > h3
+{
+    color: var(--just-white);
+    font-size: 1.8rem;
+    line-height: 18px;
+}
+
+.info-text-container > p
+{
+    color: var(--off-grey);
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.titles 
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titles > h1 
+{
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 26px;
+}
+
+.titles > p 
+{
+    color: var(--off-grey);
+    font-size: 1.4rem;
+    line-height: 18px;
+    margin-top: 25px;
+    font-weight: 500;
+}
 
 
