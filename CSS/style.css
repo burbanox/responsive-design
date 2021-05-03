@@ -413,4 +413,29 @@ main
     font-weight: 500;
 }
 
+.call-section 
+{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+.call-section .call__image 
+{
+    width: 100%;
+    max-width: 500px;
+    height: 387px;
+    background: url('../assets/img/bitcoinbaby.jpg');
+    text-align: center;
+    padding-top: 64px;
+}
+
+.call__image p 
+{
+    font-size: 2.4rem;
+    line-height: 26px;
+    font-weight: bold;
+    color: var(--just-white);
+}
+
 
