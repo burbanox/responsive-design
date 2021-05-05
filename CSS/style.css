@@ -562,10 +562,51 @@ main
 {
     width: 151px;
     height: 48px;
+    padding-right: 30px;
     background-color: var(--off-white);
     font-size: 1.4rem;
     line-height: 18px;
     font-weight: bold;
     font-family: var(--prymary-font);
     border: 2px solid var(--bicoint-orange);
+    position: relative;
+}
+
+.price-box button span 
+{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/orange-right-arrow.svg');
+    top: 50%;
+    transform: translateY(-55%);
+    right: 20px;
+}
+
+footer 
+{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    background-color: var(--bicoint-orange);
+}
+
+.footer-info 
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
