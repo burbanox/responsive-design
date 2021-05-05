@@ -601,12 +601,28 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .footer-logo
 {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 35px;
+}
+
+.footer-datalist
+{
+    list-style: none;
+}
+
+.footer-datalist li 
+{
+    color: var(--just-white);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    margin-bottom: 10px;
 }
