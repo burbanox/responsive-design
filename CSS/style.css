@@ -16,6 +16,7 @@ Organizacion del archivo :
     --secondary-blue : #1A9AF7;
     --soft-blue : #E7F5FF;
     --warm-black : #201E1C;
+    --just-black :#000000;
     --warm-black-two : #282623;
     --hard-grey : #757575;
     --off-grey : #808080;
@@ -54,6 +55,8 @@ header
     justify-content: center;
     background: var(--linear-background);
     min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
     width: 100%;
     height: 334px;
     font-size: 1.4rem;
@@ -426,8 +429,12 @@ main
     max-width: 500px;
     height: 387px;
     background: url('../assets/img/bitcoinbaby.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     text-align: center;
     padding-top: 64px;
+    margin: 0 auto;
 }
 
 .call__image p 
@@ -438,4 +445,127 @@ main
     color: var(--just-white);
 }
 
+.price 
+{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    background-color: var(--just-white);
+    padding-top: 60px;
+    text-align: center;
+}
 
+.price-text 
+{
+    width: 90%;
+    margin: 0 auto;
+    min-width: 288px;
+    max-width: 810px;
+    margin-bottom: 30px;
+}
+
+.price-text h3 
+{
+    margin-bottom: 25px;
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+}
+
+.price-text p 
+{
+    color: var(--hard-grey);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+}
+
+.price-container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.price-box 
+{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 190px;
+    height: 247px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+
+.price-box .advertising 
+{
+    background-color: var(--bicoint-orange);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--just-white);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+}
+
+.price-box-title 
+{
+    color: var(--just-black);
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.price-box-number
+{
+    color: var(--just-black);
+    font-weight: bold;
+    font-size: 5.2rem;
+    height: 53px;
+    font-family: var(--secondary-font);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.price-box-number span
+{
+    display: inline-block;
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 15px;
+    font-weight: 500;
+    transform: translateX(-150%);
+    top: 10px;
+}
+
+.price-box-description 
+{
+    color: var(--hard-grey);
+    font-size: 1.2rem;
+    line-height: 15px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+}
+
+.price-box button 
+{
+    width: 151px;
+    height: 48px;
+    background-color: var(--off-white);
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: bold;
+    font-family: var(--prymary-font);
+    border: 2px solid var(--bicoint-orange);
+}
