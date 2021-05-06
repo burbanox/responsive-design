@@ -489,9 +489,23 @@ main
     gap: 25px;
 }
 
-.price-box 
+.price-container article
 {
     scroll-snap-align: center;
+}
+
+.price-container article:first-child
+{
+    margin-left: 25px;
+}
+
+.price-container article:last-child
+{
+    padding-right: 25px;
+}
+
+.price-box 
+{
     margin-top: 20px;
     margin-bottom: 60px;
     padding-top: 15px;
