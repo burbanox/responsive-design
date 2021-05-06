@@ -1,0 +1,33 @@
+.info-container 
+{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info-container .info-text-container
+{
+    width: 45%;
+}
+
+.info-container .titles
+{
+    align-self: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.call__image p 
+{
+    font-size: 4.0rem;
+}
+
+.price-container 
+{
+    justify-content: center;
+}
+
+.footer-logo 
+{
+    justify-content: center;
+}

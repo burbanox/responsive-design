@@ -25,6 +25,7 @@ Organizacion del archivo :
     --just-white : #FFFFFF;
     --prymary-font : 'DM Sans', 'sans-serif'; 
     --secondary-font : 'Inter';
+    --max-width : 1440px;
 }
 
 *
@@ -55,7 +56,7 @@ header
     justify-content: center;
     background: var(--linear-background);
     min-width: 320px;
-    max-width: 900px;
+    max-width: var(--max-width);
     margin: 0 auto;
     width: 100%;
     height: 334px;
@@ -74,7 +75,7 @@ header>img
 {
     width: 90%;
     min-width: 288px;
-    max-width: 900px;
+    max-width: var(--max-width);
     height: 218px;
     margin-top: 40px;
     text-align: center;
@@ -126,7 +127,7 @@ main
     width: 100%;
     height: auto;
     min-width: 320px;
-    max-width: 900px;
+    max-width: var(--max-width);
     margin: 0 auto;
     background-color: var(--off-white);
 }
@@ -154,7 +155,7 @@ main
 .text-container 
 {
     min-width: 288px;
-    max-width: 900px;
+    max-width: var(--max-width);
     width: 90%;
     margin: 0 auto;
 }
@@ -182,7 +183,7 @@ main
     display: flex;
     justify-content: center;
     min-width: 288px;
-    max-width: 900px;
+    max-width: var(--max-width);
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -214,7 +215,7 @@ main
 {
     width: 100%;
     min-width: 208px;
-    max-width: 500px;
+    max-width: var(--max-width);
     height: 160px;
 }
 
@@ -258,6 +259,7 @@ main
     color: var(--hard-grey);
     font-size: 1.4rem;
     line-height: 17px;
+    text-align: center;
 }
 
 .main-table td span
@@ -325,17 +327,17 @@ main
 {
     width: 88%;
     min-width: 281.6px;
-    max-width: 792;
+    max-width: 12672.2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
 }
 
-.info-container>div
+.info-container .info-text-container, .info-container .titles
 {
     width: 100%;
-    max-width: 500px;
+    /*max-width: 500px;*/
 }
 
 .info-text-container 
@@ -420,7 +422,7 @@ main
 {
     width: 100%;
     min-width: 320px;
-    max-width: 900px;
+    max-width: var(--max-width);
 }
 
 .call-section .call__image 
@@ -448,7 +450,7 @@ main
 {
     width: 100%;
     min-width: 320px;
-    max-width: 900px;
+    max-width: var(--max-width);
     background-color: var(--just-white);
     padding-top: 60px;
     text-align: center;
@@ -459,7 +461,7 @@ main
     width: 90%;
     margin: 0 auto;
     min-width: 288px;
-    max-width: 810px;
+    max-width: 1296px;
     margin-bottom: 30px;
 }
 
@@ -605,7 +607,7 @@ footer
 {
     width: 100%;
     min-width: 320px;
-    max-width: 900px;
+    max-width: var(--max-width);
     height: 150px;
     margin: 0 auto;
     display: flex;
