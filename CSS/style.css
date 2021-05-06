@@ -426,12 +426,11 @@ main
 .call-section .call__image 
 {
     width: 100%;
-    max-width: 500px;
-    height: 387px;
-    background: url('../assets/img/bitcoinbaby.jpg');
+    height: 60vh;
+    background: url('../assets/img/bitcoinbaby2x.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     padding-top: 64px;
     margin: 0 auto;
@@ -484,16 +483,20 @@ main
 .price-container 
 {
     display: flex;
-    justify-content: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 25px;
 }
 
 .price-box 
 {
+    scroll-snap-align: center;
     margin-top: 20px;
     margin-bottom: 60px;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 190px;
+    min-width: 190px;
     height: 247px;
     position: relative;
     display: flex;
