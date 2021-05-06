@@ -1,3 +1,9 @@
+.main-exchange-container .backgroung_img
+{
+    width: 300px;
+    height: 300px;
+}
+
 .info-container 
 {
     flex-wrap: wrap;
