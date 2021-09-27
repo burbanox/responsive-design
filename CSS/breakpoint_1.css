@@ -10,14 +10,93 @@
 
 header > img
 {
-    width: 250px;
-    height: 40px;
+    width: 350px;
+    height: 56px;
+}
+
+.header__button 
+{
+    width: 322px;
+    height: 70px;
+    padding-top: 26px;
+    font-size: 1.8rem;
 }
 
 .main-exchange-container .backgroung_img
 {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+}
+
+.text-container
+{
+    margin-top: 100px;
+}
+
+.text-container h2,.titles > h1,
+.price-text h3
+{
+    font-size: 3.0rem;
+}
+
+.text-container p,.titles > p,
+.price-text p
+{
+    font-size: 1.9rem;
+}
+
+.table-content p
+{
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.main-table-container 
+{
+    margin-top: 80px;
+}
+
+.main-table table
+{
+    width: 800px;
+    height: 220px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rigth-block,.first-rigth-block,.last-rigth-block
+{
+    font-size: 2.0rem;
+    line-height: 19px;
+    text-align: center;
+}
+
+.left-block,.first-left-block,.last-left-block
+{
+    font-size: 2.0rem;
+    line-height: 17px;
+    text-align: center;
+}
+
+.main-table td span
+{
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+
+.table-content .date-containt 
+{
+    margin-top: 50px;
+    width: 240px;
+    height: 50px;
+}
+
+.date-containt .date-text 
+{
+    font-size: 1.5rem;
 }
 
 .info-container 
@@ -38,18 +117,54 @@ header > img
     margin: 0 auto;
     margin-bottom: 40px;
 }
-
+.call__image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .call__image p 
 {
-    font-size: 4.0rem;
+    font-size: 8.0rem;
+}
+
+.price-text 
+{
+    margin-bottom: 80px;
 }
 
 .price-container 
 {
     justify-content: center;
 }
-
-.footer-logo 
+footer
 {
-    justify-content: center;
+    justify-content: space-around;
+}
+.footer-info p 
+{
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.footer-logo
+{
+    width: 120px;
+    height: 120px;
+}
+
+.footer-datalist
+{
+    list-style: none;
+    display: flex;
+    background: var(--just-white);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.footer-datalist img 
+{
+    width: 60px;
+    height: 60px;
+    margin: 0 25px;
 }
